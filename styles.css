@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5d5d7d;
+    font-weight: 400;
+}
+
+.first-div {
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-section, .second-section {
+    display: inline-block;
+}
+
+.first-section {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 19%;
+}
+
+.second-section { 
+    background-color: rgba(93,93,125,0.16);
+    height: 100%;
+    width: 40%;
+    position: absolute;
+}
+
+h1 {
+    font-size: 70px;
+    width: 368px;
+}
+
+p{
+    width: 540px;
+    font-size: 28px;
+    opacity: .6;
+    margin: 15px 0;
+}
+
+button {
+    border:none;
+    border-radius: 30px;
+    background: #9499ea;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    width: 269px;
+    height: 62px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+img {
+    position: relative;
+    top: 10vh;
+    right: 130px;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 59px;
+    margin: 24px 41px;
+}
+
+a {
+    margin-right: 41px;
+}
+
+button:hover {
+    opacity: .6;
+}
+
+button:active {
+    opacity: .8;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+a {
+    cursor:pointer;
+}
+
+@media screen and (max-width:910px) {
+    .first-section, .second-section {
+        display:block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .second-section {
+        padding: 40px;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        margin: 58px auto;
+        width: auto;
+    }
+
+    p {
+        font-size: 14px;
+        width: 296px;
+        opacity: .6;
+        margin: 15px auto 40px;
+        text-align: center;
+    }
+
+    button {
+        width: 269px;
+        height: 62px;
+        border-radius: 24px;
+        margin: 15px auto;
+        display:block;
+    }
+
+    img {
+        max-width: 90%;
+        position: static;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header {
+        display:none;
+    }
+
+}
